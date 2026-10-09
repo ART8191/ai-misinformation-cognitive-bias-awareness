@@ -1,0 +1,23 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local corpus, generated retrieval state, and user-provided articles
+data/articles/
+data/faiss_cache.pkl
+webz_json/
+
+# Generated artifacts and editor state
+output/
+.DS_Store
+.pytest_cache/
+.streamlit/secrets.toml
